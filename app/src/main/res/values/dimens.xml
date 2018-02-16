@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- image & logo dimens -->
+    <dimen name="image_height">250dp</dimen>
+    <dimen name="logo_height">72dp</dimen>
+<dimen name="logo_translation">-20dp</dimen>
+
+    <!-- title dimens -->
+    <dimen name="title_padding_horizontal">16dp</dimen>
+    <dimen name="title_padding_vertical">8dp</dimen>
+
+    <!-- icon dimens -->
+    <dimen name="icon_padding_horizontal">8dp</dimen>
+    <dimen name="icon_padding_vertical">4dp</dimen>
+
+    <!-- container dimen -->
+    <dimen name="for_weight">0dp</dimen>
+    <dimen name="weight">1</dimen>
+
+    <!-- info text size -->
+    <dimen name="short_description_text_size">14sp</dimen>
+
+</resources>

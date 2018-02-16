@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BusinessCardApp</string>
+    <string name="monkey_title">Monkey Boulder</string>
+    <string name="address_text">1033 Bp., Szentendrei út 95.</string>
+    <string name="phone_text">1-222-2222</string>
+    <string name="web_text">www.monkeyboulder.hu</string>
+    <string name="email_text">info@monkeyboulder.hu</string>
+    <string name="open_hours_text">Mon-Fri: 12.00-23.00, Sat-Sun: 10.00-22.00</string>
+    <string name="short_description_text">Monkey Boulder is Budapest\'s largest boulder gym. If you visit us you may meet friendly sport mates and a good place for bouldering! If you have questions don\'t hesitate to contact us!</string>
+</resources>

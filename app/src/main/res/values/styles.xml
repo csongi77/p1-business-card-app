@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/monkey_green</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Title text style -->
+    <style name="title_text" parent="Base.TextAppearance.AppCompat.Headline">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingBottom">@dimen/title_padding_vertical</item>
+        <item name="android:paddingTop">@dimen/title_padding_vertical</item>
+        <item name="android:paddingLeft">@dimen/title_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/title_padding_horizontal</item>
+        <item name="android:textColor">@color/monkey_yellow</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/monkey_green</item>
+    </style>
+
+    <!-- Info text style -->
+    <style name="info_text_style" parent="Base.TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">@color/monkey_white</item>
+        <item name="android:padding">@dimen/title_padding_vertical</item>
+        <item name="android:textColorLink">@color/colorAccent</item>
+    </style>
+
+    <!-- short description style -->
+    <style name="short_decription_style" parent="info_text_style">
+        <item name="android:background">@color/monkey_blue</item>
+        <item name="android:layout_marginLeft">@dimen/title_padding_horizontal</item>
+        <item name="android:layout_marginRight">@dimen/title_padding_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/title_padding_vertical</item>
+        <item name="android:textSize">@dimen/short_description_text_size</item>
+    </style>
+
+    <!-- Info Linear Layout style -->
+    <style name="info_linear_layout_style">
+        <item name="android:background">@color/monkey_blue</item>
+        <item name="android:layout_marginLeft">@dimen/title_padding_horizontal</item>
+        <item name="android:layout_marginRight">@dimen/title_padding_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/title_padding_vertical</item>
+    </style>
+
+    <!-- info icon style -->
+    <style name="info_icon_style">
+        <item name="android:paddingRight">@dimen/icon_padding_horizontal</item>
+        <item name="android:paddingLeft">@dimen/icon_padding_horizontal</item>
+        <item name="android:paddingTop">@dimen/icon_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/icon_padding_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+
+
+</resources>

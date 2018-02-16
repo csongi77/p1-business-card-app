@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/monkey_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/header_image_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image_height"
+                android:scaleType="centerCrop"
+                android:src="@drawable/monkey_image" />
+
+            <TextView
+                style="@style/title_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="@string/monkey_title" />
+
+            <ImageView
+                android:layout_width="@dimen/logo_height"
+                android:layout_height="@dimen/logo_height"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/monkey_logo"
+                android:translationX="@dimen/logo_translation"
+                android:translationY="@dimen/logo_translation" />
+        </RelativeLayout>
+
+        <!-- Linear Layout for splitting info and description START-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Linear Layout for info section START -->
+            <LinearLayout
+                android:layout_width="@dimen/for_weight"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/weight"
+                android:orientation="vertical">
+                <!-- Business Address -->
+                <LinearLayout
+                    style="@style/info_linear_layout_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/info_icon_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_place_white_24dp" />
+
+                    <TextView
+                        style="@style/info_text_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/address_text" />
+                </LinearLayout>
+
+                <!-- Business Telephone -->
+                <LinearLayout
+                    style="@style/info_linear_layout_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/info_icon_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_phone_white_24dp" />
+
+                    <TextView
+                        style="@style/info_text_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoLink="phone"
+                        android:text="@string/phone_text" />
+                </LinearLayout>
+
+                <!-- Business Web -->
+                <LinearLayout
+                    style="@style/info_linear_layout_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/info_icon_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_link_white_24dp" />
+
+                    <TextView
+                        style="@style/info_text_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoLink="web"
+                        android:text="@string/web_text" />
+                </LinearLayout>
+
+                <!-- Business Email -->
+                <LinearLayout
+                    style="@style/info_linear_layout_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/info_icon_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_email_white_24dp" />
+
+                    <TextView
+                        style="@style/info_text_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoLink="email"
+                        android:text="@string/email_text" />
+                </LinearLayout>
+
+                <!-- Business Open Hours -->
+                <LinearLayout
+                    style="@style/info_linear_layout_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/title_padding_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/info_icon_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_access_time_white_24dp" />
+
+                    <TextView
+                        style="@style/info_text_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/open_hours_text" />
+                </LinearLayout>
+                <!-- END: Linear Layout for info section  -->
+            </LinearLayout>
+
+            <!-- Linear Layout for short description section START -->
+            <LinearLayout
+                android:layout_width="@dimen/for_weight"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/weight"
+                android:orientation="vertical">
+                <!-- Short description -->
+                <TextView
+                    style="@style/short_decription_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/short_description_text" />
+                <!-- END: Linear Layout for short description section -->
+            </LinearLayout>
+
+            <!-- END: Linear Layout for splitting info and description -->
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
